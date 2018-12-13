@@ -4,14 +4,14 @@
   "description": "Node test",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
+    "dev": "cls && node index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/njdiaz90/node-test.git"
   },
-  "author": "Nico Gato Diaz",
+  "author": "Nico Diaz",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/njdiaz90/node-test/issues"

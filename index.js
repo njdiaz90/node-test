@@ -3,18 +3,18 @@ const getMinMaxUtils = require("./getMinMaxUtils.js");
 const getNamesList = require("./getNames.js");
 const arrayUtils = require("./arrayUtils.js");
 const findRepeatedCharUtils = require("./findRepeatedCharUtils.js");
+const arrayTests = require("./arrayTests.js");
+const gradingStudents = require("./gradingStudents.js")
+const reachedFruits = require("./reachedFruits.js")
+const doKangarooCatchUp = require("./doKangarooCatchUp.js")
+const getTotalX = require("./getTotalX.js")
 
-const basicFunctions = {
-    findMissingNumbers: findMissing.findMissingNumbers,
-    getMin: getMinMaxUtils.getMin,
-    getMax: getMinMaxUtils.getMax,
-    getMinAndMax: getMinMaxUtils.getMinAndMax,
-    getNames: getNamesList.getNames,
-    shiftArray: arrayUtils.shiftArray,
-    shiftToTheLeft: arrayUtils.shiftToTheLeft,
-    shiftToTheRight: arrayUtils.shiftToTheRight,
-    findRepeatedChar: findRepeatedCharUtils.findRepeatedChar,
-    isStrRepeated: findRepeatedCharUtils.isStrRepeated,
-}
-const Personas = [{name:"Alfonso",age:21},{name:"Vicente",age:27},{name:"Juanca",age:21},{name:"Marcelo",age:30},{name:"Roberto",age:22},{name:"Guillermo",age:32},{name:"Walter",age:20},{name:"Leandro",age:21}]
-console.log(basicFunctions.getNames(Personas));
+
+// let arr = [16,18,10,15,1,2,7,9,19,6,19,14,19,2,14,5,15,2,9,14,9,2,14,3,6,16,10,1,5,7];
+let a = [2,4];
+let b = [16, 32, 96];
+
+
+console.log('--------------------')
+
+getTotalX.getTotalBetween(a,b)
